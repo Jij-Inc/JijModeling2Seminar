@@ -1,0 +1,17 @@
+[project]
+name = "jijmodeling2-handson"
+version = "1.0.0"
+description = "Jij Hands-on: Combinatorial Optimization with JijModeling 2"
+requires-python = ">=3.12"
+dependencies = [
+    "jijmodeling>=2.2.0",
+    "openjij>=0.11.1",
+    "ommx-openjij-adapter>=2.3.4",
+    "numpy>=1.26.0,<2.4.0",
+    "jupytext>=1.16.0",
+    "jupyter>=1.0.0",
+    "ommx-da4-adapter>=0.1.1",
+    "jijzept-solver>=1.2.0",
+    "matplotlib>=3.8.0",
+    "python-dotenv>=1.0.0",
+]
